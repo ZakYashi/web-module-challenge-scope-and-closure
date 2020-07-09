@@ -43,7 +43,10 @@ function counterMaker() {
 }
 
 const counter1 = counterMaker();
+console.log(counter1);
 
+
+ 
 // counter2 code
 let count = 0;
 
