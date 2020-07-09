@@ -28,10 +28,14 @@ function processFirstItem(stringList, callback) {
  * 
  * 1. What is the difference between counter1 and counter2?
  * 
+ * Counter1 is using closure while counter2 is not holding anything in memory after the function is called.
+ * 
  * 2. Which of the two uses a closure? How can you tell?
+ * counter1 is using closure and Ican tell becasue of the declaring satement "const counter = counterMaker();"
  * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+ * 
+ *counter1 would be prefered when i want the functions data to be stored and remebered while counter two would be better when i wanty to run thge function but not store it's data to causing it to increment each time it is ran.
 */
 
 // counter1 code
