@@ -91,10 +91,21 @@ finalScore(inning, 9) might return:
 */ 
 
 function finalScore(/*code Here*/){
-
+let inningScore = 0;
+return inning++;
   /*Code Here*/
 
 }
+
+
+
+ function finalScore(inning, 9/*code Here*/){
+let inningScore = 0;
+return function inningHomeScore() {
+return inning++; 
+alert(`The ${homeTeam} scored ${homeFinScore} but the ${awayTeam} scored ${awayFinScore}.`);
+}
+ }
 
 /* Task 4: 
 
